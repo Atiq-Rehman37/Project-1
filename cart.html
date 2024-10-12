@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | MANI'STUFF</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="/images/shopping.png" type="image/x-icon" />
+    <!-- CSS STYLING stylesheet -->
+    <link rel="stylesheet" href="CSS/stylestise.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- This is our header -->
+    <header>
+      <div class="container1">
+        <nav>
+          <div class="no">
+            <p>(+92) - 2345 - 6789</p>
+          </div>
+          <div class="location">
+            <a href="" class="atag1">Our Location</a>
+          </div>
+          <div class="content">
+            <p>Super Values Deals - Save more coupons</p>
+          </div>
+          <div class="register">
+            <a href="" class="atag">Log In /</a>
+            <a href="" class="atag">Sign Up</a>
+          </div>
+        </nav>
+      </div>
+      <div class="container2">
+        <nav>
+          <div class="logo">
+            <a href="/index.html"><strong>MANI</strong>STUFF</a>
+          </div>
+          <input type="checkbox" name="" id="menubar" />
+          <label for="menubar" id="label"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <div class="nav-items">
+            <ul>
+              <li class="active"><a href="/index.html">Home</a></li>
+              <li>
+                <a href="/shop.html">Shop</a>
+                <ul>
+                  <li><a href="">Cart</a></li>
+                  <li><a href="">WishList</a></li>
+                  <li><a href="">Payment</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Categoreis</a>
+                <ul>
+                  <li><a href="">T-Shirts</a></li>
+                  <li><a href="">Shoes</a></li>
+                  <li><a href="">Jeans</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">My Account</a>
+                <!-- <ul>
+                      <li><a href="">Log In</a></li>
+                      <li><a href="">Register</a></li>
+                      <li><a href="">Password</a></li>
+                    </ul> -->
+              </li>
+              <!-- <li><a href="">Compare</a></li> -->
+              <li>
+                <a href="">Contact US</a>
+                <ul>
+                  <li><a href="">Log In</a></li>
+                  <li><a href="">Register</a></li>
+                  <li><a href="">Password</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="searchbar">
+            <input type="search" placeholder="Search For Items..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="icons">
+            <a href=""
+              ><i class="fa-regular fa-heart"
+                ><span class="badge">5</span></i
+              ></a
+            >
+            <a href=""
+              ><i class="fa-solid fa-cart-shopping"
+                ><span class="badge">2</span></i
+              ></a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Breadcrump  -->
+      <section class="breadcrump">
+        <a href="/index.html">Home</a>
+        <span>></span>
+        <a href="">Cart</a>
+      </section>
+      <!-- Cart details  -->
+      <section class="cart_detail">
+      <div class="cart_image">
+        <h3>Image</h3>
+        <img src="/images/shirt men.jpg" alt="">
+      </div>
+      <div class="cart_name">
+        <h3>Name</h3>
+        <p>Casual ColourFul Shirt</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="cart_price">
+        <h3>Price</h3>
+        <p>$80</p>
+      </div>
+      <div class="cart_quantity">
+        <h3>Quantity</h3>
+        <input type="number">
+      </div>
+      <div class="cart_total">
+        <h3>Subtotal</h3>
+        <p>$160</p>
+      </div>
+      </section>
+      <section class="cartbuttons">
+        <button >Continue Shopping</button>
+        <div class="continueshop">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i>Update Cart</a>
+        </div>
+      </section>
+      <section class="shipping">
+        <div class="shipping_details">
+          <h1>Calculate Shipping</h1>
+          <form action="">
+            <input type="text" placeholder="State / Country" required><br>
+            <input type="text" placeholder="City" required><br>
+            <input type="text" placeholder="PostCode" required><br>
+            <a href=""><button>Update Cart</button></a>
+          </form>
+          <h2>Apply Coupon</h2>
+          <input type="text" placeholder="Enter Your Coupon">
+          <a href=""><button><i class="fa-regular fa-window-maximize"></i>Apply</button></a>
+        </div>
+        <div class="Cart_Totals">
+          <h1>Cart Totals</h1>
+          <table>
+            <tr>
+              <td>Cart Subtotal</td>
+              <td>$240.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$250.00</td>
+            </tr>
+          </table>
+          <button><i class="fa-regular fa-window-maximize"></i>Procced To Checkout</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
